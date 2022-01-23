@@ -2,7 +2,7 @@ import express from "express"
 import router from "./routes/user.js"
 import bodyParser from "body-parser"
 
-
+/// chnaged file
 const app=express()
 app.use(bodyParser.json())
 app.use("/user",router)
